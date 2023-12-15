@@ -1,0 +1,284 @@
+
+.body {
+    padding-top: 8%;
+    color: #2d4271;
+}
+
+.body__heading {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.body__heading-img {
+    padding: 0;
+    width: 33.3333%;
+}
+
+.body__heading-img img {
+    max-width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.grid__column-8 {
+    padding: 20px 40px;
+    background-color: #f5f5f5c4;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.title span {
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 12px;
+}
+
+.body__heading-inf--content {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.body__heading-inf--content .left {
+    font-weight: 600;
+    padding: 0 30px 6px 0;
+}
+
+.body__heading-inf--content .right {
+    padding: 0 30px 6px 0;
+}
+
+.body__heading-inf--content p {
+    padding-bottom: 6px;
+}
+
+.body__main {
+    padding-top: 60px;
+}
+
+.body__main h2 {
+    padding-top: 40px;
+}
+
+.wrapper h3 {
+    padding: 20px 0;
+}
+
+.wrapper__inf {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #f5f5f5c4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.form-items {
+    padding: 12px 20px;
+}
+
+.form-items input {
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.form-items .form-message {
+    color: red;
+}
+
+.form-message {
+    display: block;
+    height: 10px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.invalid input {
+    border-color: red;
+}
+
+.invalid .form-message {
+    color: red;
+}
+
+.content__list-items--price {
+    padding: 5px 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.price__custom {
+    font-size: 14px;
+    color: #2d4271;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper__client {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper__client-item {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #f5f5f5c4;
+    border-radius: 6px;
+}
+
+.wrapper__client-item p {
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.wrapper__client-item .left span {
+    font-size: 12px;
+}
+
+.wrapper__client-item .right {
+    font-size: 20px;
+}
+
+.wrapper__client-item .right i {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.wrapper__oldLimit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 14px;
+    background-color: #f5f5f5c4;
+}
+
+.wrapper__oldLimit div {
+    padding: 4px;
+}
+
+.wrapper__oldLimit span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wrapper__pay {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper__pay-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.wrapper__pay-item input {
+    width: 16px;
+    height: 16px;
+}
+
+.wrapper__pay-item span {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wrapper__detail {
+    margin: 20px;
+    border: 1px solid #2d4271;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.wrapper__detail h4 {
+    padding: 20px;
+}
+
+.wrapper__detail-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 20px;
+}
+
+.wrapper__detail-list p {
+    padding-bottom: 10px;
+}
+
+.wrapper__detail-list .right p {
+    text-align: right;
+    font-weight: 600;
+}
+
+.wrapper__detail .line {
+    width: 95%;
+    border: 1px solid #ccc;
+    margin: 0 15px;
+}
+
+.wrapper__detail-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.wrapper__detail-total--price {
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wrapper__detail-button {
+    text-align: center;
+}
+
+.wrapper__detail-button button {
+    width: 75%;
+    border: none;
+    background-color: #ff4400;
+    text-align: center;
+    padding: 14px;
+    margin: 0px 20px 20px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 16px;
+}
+
+.wrapper__note {
+    margin: 20px 0;
+}
+
+.wrapper__note textarea {
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #2d4271;
+    border-radius: 8px;
+}
+
